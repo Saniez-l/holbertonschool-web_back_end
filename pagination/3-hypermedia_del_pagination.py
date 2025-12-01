@@ -54,7 +54,7 @@ class Server:
         count = 0
 
         while count < page_size and next_index < len(self.dataset()):
-     
+
             if next_index in indexed_data:
                 data.append(indexed_data[next_index])
                 count += 1
